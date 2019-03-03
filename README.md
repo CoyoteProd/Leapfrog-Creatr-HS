@@ -11,5 +11,6 @@ WARNING ! this release seems to break communication with the display. (Olimex A2
 Future update : 
  - Add BLTouch
  - Add 200v Heated Bed with SSR
-
+ - Change Nozzles by Volcano E3D
+ 
 Forked from : https://github.com/ledfreak3d/Leapfrog-Creatr-HS-New-Firmware
