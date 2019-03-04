@@ -7,9 +7,7 @@ Latest Marlin firmware for Leapfrog Creatr Hs based on Marlin 1.1.9
  - Acceleration and Feedrate diminued to have correct Print.
  - Linear Advance activated with Coef : 1.00
 
-WARNING ! 	this release seems to break communication with the display. (Olimex A20)
-			
-			Probably because by defaut Creatr use Checksumed Protocol.
+WARNING ! 	this release seems to break communication with the display (Olimex A20). Probably because by defaut Creatr use Checksumed Protocol.
 			
 Future update : 
  - Add BLTouch
