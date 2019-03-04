@@ -16,3 +16,4 @@ Future update :
  - (Change Nozzles by Volcano E3D)
  
 Forked from : https://github.com/ledfreak3d/Leapfrog-Creatr-HS-New-Firmware
+Original Firmware : https://github.com/Leapfrog3DPrinters/CreatrHS_Firmware_2.5
