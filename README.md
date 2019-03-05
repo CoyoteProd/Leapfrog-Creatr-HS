@@ -10,14 +10,14 @@ WARNING !
 
 WARNING ! 	
 
-Marlin Std:
+## Marlin Std:
  - Acceleration and Feedrate diminued to have correct Print.
  - Linear Advance activated with Coef : 1.00
 
-Marlin BLTouch (same Standard settings)
+## Marlin BLTouch (same Standard settings)
 - Add BLTouch
 
-![alt text](Marlin BLTouch\Pict\BLTouch.jpg "BLTouch img")
+![alt text](Marlin BLTouch/Pict/BLTouch.jpg "BLTouch img")
  
  - Connect Z (Black/White) on Zmin connector
  - Connect SERVO0_PIN on 52 (SCK) (physical pin 20 of ATMega2560) (see picture)
