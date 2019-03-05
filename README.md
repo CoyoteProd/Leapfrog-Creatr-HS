@@ -5,7 +5,9 @@ Latest Marlin firmware for Leapfrog Creatr Hs based on Marlin 1.1.9
 100% Compatible with the original mainboard
 
 ### WARNING ! 	
-These releases seems to break communication with the display (Olimex A20). ( Probably because by defaut Creatr HS use Checksumed Protocol ? )
+These releases seems to break communication with the display (Olimex A20). 
+
+( Probably because by defaut Creatr HS use Checksumed Protocol ? )
 ### WARNING ! 	
 
 ## Marlin Std:
