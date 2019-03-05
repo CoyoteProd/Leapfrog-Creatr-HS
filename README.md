@@ -20,7 +20,7 @@ These releases seems to break communication with the display (Olimex A20).
 ![BLTouch img](Marlin%20BLTouch/Pict/BLTouch.jpg)
  
  - Connect Z (Black/White) on Zmin connector
- - Connect SERVO0_PIN on 52 (SCK) (physical pin 20 of ATMega2560) (see picture)
+ - Connect SERVO0_PIN on 52 (SCK) (physical pin 20 of ATMega2560) (see picture Marlin%20BLTouch/Pict/Servo.jpg )
 
 Once installed, use this sequence to determine if the BLTouch is setup properly :
 
