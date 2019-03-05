@@ -24,17 +24,26 @@ These releases seems to break communication with the display (Olimex A20).
 
 Once installed, use this sequence to determine if the BLTouch is setup properly :
 
->Connect BLTouch, power up controller and upload the firmware
->LED will be ON if a servo signal is present.
->M119		; should return OPEN. If not check that the BLTouch is enabled in the configuration. If enabled then check wiring and check that the correct pin is being used. Also check that Z_MIN_ENDSTOP_INVERTING and Z_MIN_PROBE_ENDSTOP_INVERTING are both set to "false".
->M280 P0 S10 	; should deploy the probe and the orange LED will be OFF.
->M119 		; should return OPEN
->M280 P0 S90 	; should stow the probe and the orange LED will be ON
->M280 P0 S60 	; puts it into the M119 test mode.
+> Connect BLTouch, power up controller and upload the firmware
+
+> LED will be ON if a servo signal is present.
+
+> M119		; should return OPEN. If not check that the BLTouch is enabled in the configuration. If enabled then check wiring and check that the correct pin is being used. Also check that Z_MIN_ENDSTOP_INVERTING and Z_MIN_PROBE_ENDSTOP_INVERTING are both set to "false".
+
+> M280 P0 S10 	; should deploy the probe and the orange LED will be OFF.
+
+> M119 		; should return OPEN
+
+> M280 P0 S90 	; should stow the probe and the orange LED will be ON
+
+> M280 P0 S60 	; puts it into the M119 test mode.
 		; The probe should remain stowed and the blue LED should be OFF. If it's ON then the unit needs to be adjusted.
->M119 		; should return TRIGGERED
->M280 P0 S160 	; returns it to normal operation
->M119 		; should return OPEN.
+
+> M119 		; should return TRIGGERED
+
+> M280 P0 S160 	; returns it to normal operation
+
+> M119 		; should return OPEN.
 
 After that, Lower the bed to max, and initiate a Z Home (G28 Z) with a finger on the power supply (Safety first)
 During Homing with other finger trigg bltouch: the bed must stop...( if not poweroff before crash....)
